@@ -1,0 +1,44 @@
+INFO:root:Call GET request
+INFO:root:GET Response Status Code: 200
+INFO:root:Call POST request
+INFO:root:POST Response Status Code: 200
+INFO:root:{'code': 201, 'meta': None, 'data': {'id': 1933, 'name': 'woediljtyn', 'email': 'dqyazhaxol@test.com', 'gender': 'Male', 'status': 'Inactive', 'created_at': '2021-05-27T20:34:25.032+05:30', 'updated_at': '2021-05-27T20:34:25.032+05:30'}}
+INFO:root:Call DELETE request for a specific user
+INFO:root:DELETE Response Status Code: 200
+INFO:root:Call GET request for a deleted user
+INFO:root:GET Response Status Code: 200
+INFO:root:{'code': 204, 'meta': None, 'data': None}
+INFO:root:Call GET request
+INFO:root:GET Response Status Code: 404
+INFO:root:Call POST request
+INFO:root:POST Response Status Code: 200
+INFO:root:{'code': 422, 'meta': None, 'data': [{'field': 'email', 'message': 'is invalid'}]}
+INFO:root:Call POST request
+INFO:root:POST Response Status Code: 200
+INFO:root:{'code': 422, 'meta': None, 'data': [{'field': 'gender', 'message': 'can be Male or Female'}]}
+INFO:root:Call POST request
+INFO:root:POST Response Status Code: 200
+INFO:root:{'code': 422, 'meta': None, 'data': [{'field': 'status', 'message': 'can be Active or Inactive'}]}
+INFO:root:Call DELETE request for a specific user
+INFO:root:DELETE Response Status Code: 200
+INFO:root:Call GET request for a deleted user
+INFO:root:GET Response Status Code: 200
+INFO:root:{'code': 404, 'meta': None, 'data': {'message': 'Resource not found'}}
+INFO:root:Call GET request for a specific user
+INFO:root:GET Response Status Code: 200
+INFO:root:{'code': 200, 'meta': None, 'data': {'id': 48, 'name': 'Subhashini Ahluwalia', 'email': 'ahluwalia_subhashini@will.name', 'gender': 'Female', 'status': 'Active', 'created_at': '2021-05-27T03:50:04.663+05:30', 'updated_at': '2021-05-27T03:50:04.663+05:30'}}
+INFO:root:Call PUT request
+INFO:root:PUT Response Status Code: 200
+INFO:root:{'code': 200, 'meta': None, 'data': {'id': 41, 'email': 'farvwxokxa@test.com', 'name': 'xbwquxqtpd', 'gender': 'Male', 'status': 'Inactive', 'created_at': '2021-05-27T03:50:04.566+05:30', 'updated_at': '2021-05-27T20:34:36.263+05:30'}}
+INFO:root:Call GET request for a specific user
+INFO:root:GET Response Status Code: 200
+INFO:root:{'code': 404, 'meta': None, 'data': {'message': 'Resource not found'}}
+INFO:root:Call PUT request
+INFO:root:PUT Response Status Code: 200
+INFO:root:{'code': 200, 'meta': None, 'data': {'id': 48, 'email': 'emuqgbznoa', 'name': 'vusdpdslqu', 'gender': 'Male', 'status': 'Active', 'created_at': '2021-05-27T03:50:04.663+05:30', 'updated_at': '2021-05-27T20:34:39.695+05:30'}}
+INFO:root:Call PUT request
+INFO:root:PUT Response Status Code: 200
+INFO:root:{'code': 422, 'meta': None, 'data': [{'field': 'gender', 'message': 'can be Male or Female'}]}
+INFO:root:Call PUT request
+INFO:root:PUT Response Status Code: 200
+INFO:root:{'code': 422, 'meta': None, 'data': [{'field': 'status', 'message': 'can be Active or Inactive'}]}
